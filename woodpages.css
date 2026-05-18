@@ -142,7 +142,7 @@ header.yevea h1 {
     font-size: 3rem;
     letter-spacing: .125rem;
 }
-header.yevea btn {
+header.yevea a.btn {
     text-decoration: none;
 }
 
