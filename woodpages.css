@@ -127,7 +127,7 @@
 /* header */
 
 header.yevea {
-  padding-bottom:1rem;
+  padding-bottom:.75rem;
   background-color:#000;
   color:#e9ecef;
 }
@@ -137,8 +137,7 @@ header.yevea a {
 }
 
 header.yevea h1 {
-font-size: 3rem;
-    font-weight: 200;
+    font-size: 3rem;
     letter-spacing: .125rem;
 }
 
