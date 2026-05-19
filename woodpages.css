@@ -157,7 +157,7 @@ i {
     margin-right: 0.4rem;
 }
 
-sup {color:#987201;font-weight:100;}
+sup {color:#ffc107;font-weight:100;}
 
 /*nested counter list*/
 ol.index {counter-reset: item;}
