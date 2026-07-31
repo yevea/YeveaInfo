@@ -17,7 +17,7 @@
     z-index: 1030;
     display: flex;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0 2rem;
 }
 #woodstore-header .container {
     width: 100%;
@@ -131,12 +131,10 @@ header.yevea {
   background-color:#000;
   color:#e9ecef;
 }
-
 header.yevea a {
     color:#fff;
     text-decoration: underline;
 }
-
 header.yevea h1 {
     color:#fff;
     font-size: 3rem;
