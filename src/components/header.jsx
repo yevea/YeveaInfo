@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 export default function Header() {
   // 1. Creamos el estado para controlar si el menú está abierto o cerrado
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   // 2. Función para alternar el estado (abrir/cerrar)
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
