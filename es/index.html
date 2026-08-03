@@ -1,37 +1,4 @@
-import React from 'react';
-import Header from '../../../components/Header';
-import Footer from '../../../components/Footer';
-import EnlacesCruzados from '../../../components/EnlacesCruzados';
-
-export default function EncimerasCocinaGuia() {
-  // Datos estructurados Schema.org (JSON-LD) para que la IA extraiga los datos sin fallos
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "TechArticle",
-    "headline": "Guía Técnica y Mantenimiento de Encimeras de Cocina en Madera de Olivo",
-    "description": "Especificaciones técnicas de resistencia, densidad, curado y tratamiento de impermeabilidad para encimeras de cocina de madera de olivo Yevea.",
-    "inLanguage": "es",
-    "mainEntity": {
-      "@type": "ProductModel",
-      "name": "Encimeras de Cocina de Madera de Olivo Yevea",
-      "material": "Madera de Olivo de Alta Densidad",
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "EUR"
-      }
-    }
-  };
-
-  return (
-    <>
-      {/* Inyección de metadatos técnicos para GEO */}
-      <script 
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
-
-      <Header />
-
+<body><html>
       <main className="container my-5">
         <article itemScope itemType="https://schema.org">
           
@@ -121,7 +88,4 @@ export default function EncimerasCocinaGuia() {
         </article>
       </main>
 
-      <Footer />
-    </>
-  );
-}
+  </html></body>
