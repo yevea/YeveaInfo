@@ -27,7 +27,37 @@
 </head>
 <body>
 
-<!-- header: components/header.html -->
+<!-- inlined header -->
+<header id="woodstore-header">
+  <div class="container d-flex align-items-center justify-content-between">
+    <a href="/">
+      <img style="width:100px;height:25px;" src="/001-vectores/logo-yevea-white.svg" alt="madera olivo - logo" />
+      <sup style="color:#fff;">®</sup>
+    </a>
+    <div class="d-flex align-items-center gap-2">
+      <div class="dropdown">
+        <button class="btn btn-sm dropdown-toggle lang-switcher-btn" type="button" id="lang-switcher" data-bs-toggle="dropdown" aria-expanded="false">español</button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="lang-switcher">
+          <li><a class="dropdown-item active" data-lang="es" href="/es/">español</a></li>
+          <li><a class="dropdown-item" data-lang="en" href="/en/">English</a></li>
+          <li><a class="dropdown-item" data-lang="fr" href="/fr/">français</a></li>
+          <li><a class="dropdown-item" data-lang="de" href="/de/">Deutsch</a></li>
+        </ul>
+      </div>
+      <button type="button" id="hamburger-toggle" class="hamburger-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+
+  <div id="hamburger-menu" class="hamburger-dropdown">
+    <ul>
+      <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Madera de Olivo</a></li>
+      <li><a href="/es/sobre-yevea.html"><i class="fa-solid fa-people-group" aria-hidden="true"></i> ¿Quienes somos?</a></li>
+      <li><a href="/es/sobre-yevea.html#contacto"><i class="fa-solid fa-address-book" aria-hidden="true"></i> Contacto</a></li>
+      <li><a href="/es/condiciones-de-venta.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Condiciones de Venta</a></li>
+      <li><a href="/es/instrucciones-de-uso.html"><i class="fa-solid fa-book-open" aria-hidden="true"></i> Instrucciones de Uso</a></li>
+    </ul>
+  </div>
+</header>
 
 <main class="container my-5" id="main-content">
   <article itemscope itemtype="https://schema.org">
@@ -61,12 +91,106 @@
       </div>
     </section>
 
-    <!-- Placeholder for enlaces component -->
-    <!-- enlaces: components/enlaces.html -->
+    <!-- Rendered Enlaces Cruzados (static HTML) -->
+    <section id="enlaces-cruzados" class="mb-5">
+      <h2>Productos relacionados</h2>
+      <div class="row gy-3">
+        <div class="col-12 col-md-6">
+          <article class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title">Disponibilidad de Tableros de Mesa</h3>
+              <p class="card-text">Fabricamos tableros a medida en madera de olivo maciza para profesionales, arquitectos y particulares. Consulta stock en nuestra tienda.</p>
+              <a class="btn btn-primary" href="/catalog/madera-olivo/tableros-mesa" title="Comprar tableros de mesa de madera de olivo en la tienda oficial de Yevea">Ver precios y comprar tableros</a>
+            </div>
+          </article>
+        </div>
+        <div class="col-12 col-md-6">
+          <article class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title">Encimeras de Cocina a Medida</h3>
+              <p class="card-text">Suministro directo de piezas únicas e impermeabilizadas para cocinas de alta gama. Accede al catálogo dinámico de precios.</p>
+              <a class="btn btn-primary" href="/catalog/madera-olivo/encimeras-cocina" title="Comprar encimeras de cocina de madera de olivo en el catálogo oficial de Yevea">Ver catálogo de encimeras</a>
+            </div>
+          </article>
+        </div>
+        <div class="col-12 col-md-6">
+          <article class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title">Encimeras de Baño Rústicas y Modernas</h3>
+              <p class="card-text">Madera de olivo tratada con resinas y aceites antihumedad. Explora las dimensiones disponibles en el motor de la tienda.</p>
+              <a class="btn btn-primary" href="/catalog/madera-olivo/encimeras-bano" title="Explorar modelos y precios de encimeras de baño en la tienda de Yevea">Comprar encimeras de baño</a>
+            </div>
+          </article>
+        </div>
+        <div class="col-12 col-md-6">
+          <article class="card h-100">
+            <div class="card-body">
+              <h3 class="card-title">Suministro de Madera de Olivo en Bruto</h3>
+              <p class="card-text">Tablones, rodajas y bloques para carpintería y ebanistería. Accede a las tarifas comerciales de nuestro catálogo dinámico.</p>
+              <a class="btn btn-primary" href="/catalog/madera-olivo/maderas-olivo" title="Comprar madera de olivo en bruto para profesionales en el catálogo de Yevea">Ver tarifas de suministro</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
+    <!-- end article -->
   </article>
 </main>
 
-<!-- footer: components/footer.html -->
+<!-- inlined footer -->
+<footer id="woodstore-footer">
+    <div class="container">
+        <div class="row g-4">
+            <!-- Contact channels -->
+            <div class="col-12 col-md-4">
+                <h6 class="footer-heading">Contáctanos</h6>
+                <ul class="footer-list">
+                    <li>
+                       <i class="fa-solid fa-phone" aria-hidden="true"></i>Teléfono fijo: <small>(sin&nbsp;horario, te&nbsp;devolvemos la&nbsp;llamada)</small><br>
+                        <a href="tel:+34960730270">+34&nbsp;960&nbsp;730&nbsp;270</a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp <small>(no&nbsp;llamadas, solo&nbsp;mensajes)</small>:<br>
+                        <a href="https://wa.me/34637362599" target="_blank" rel="noopener">+34&nbsp;637&nbsp;362&nbsp;599</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:maria@yevea.com">maria@yevea.com</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Address -->
+            <div class="col-12 col-md-4">
+                <h6 class="footer-heading">Sede Fiscal</h6>
+                <address class="footer-address">
+                    <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                    C. Virgen de&nbsp;Loreto,&nbsp;31<br>
+                    46176&nbsp;Chelva, Valencia<br>
+                    España<br>
+                </address>
+            </div>
+
+            <!-- Quick links -->
+            <div class="col-12 col-md-4">
+                <h6 class="footer-heading">Enlaces</h6>
+                <ul class="footer-list">
+                    <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i>Madera de&nbsp;Olivo</a></li>
+                    <li><a href="/es/sobre-yevea.html"><i class="fa-solid fa-people-group" aria-hidden="true"></i>¿Quienes somos?</a></li>
+                    <li><a href="/es/condiciones-de-venta.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Condiciones de&nbsp;Venta</a></li>
+                    <li><a href="/es/instrucciones-de-uso.html"><i class="fa-solid fa-book-open" aria-hidden="true"></i>Instrucciones de&nbsp;Uso</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="footer-divider">
+
+        <div class="text-center small footer-copy">
+            © 2025 Yevea. Todos los derechos reservados.
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>
