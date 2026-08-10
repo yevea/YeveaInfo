@@ -1,0 +1,9 @@
+Delete these .jsx sources per instruction.
+
+Files removed:
+- components/enlaces.jsx
+- es/madera-olivo/index.jsx
+- es/madera-olivo/encimeras-bano.jsx
+- es/madera-olivo/condiciones-venta.jsx
+- es/madera-olivo/maderas-yevea.jsx
+- es/madera-olivo/instrucciones-de-uso.jsx
